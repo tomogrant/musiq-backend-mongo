@@ -1,0 +1,36 @@
+#BUILD AND RUN
+#cd 'C:\Users\tgrant\Documents\SE Track\Backend\reviewsapp'
+#docker-compose up --build
+
+#REMOVE VOLUMES
+#docker-compose down --volumes
+
+#PRUNE
+#docker system prune
+
+version: '2'
+services:
+
+    reviewsappdb:
+        container_name: reviewsappdb
+        image: mongo:latest
+        ports:
+        - 27017:27017
+        networks:
+        - tg-network
+
+    reviewsapp:
+        container_name: reviewsapp
+        build:
+            dockerfile: Dockerfile
+        image: reviewsapp:latest
+        ports:
+        - 9292:9292
+        links:
+        - reviewsappdb
+        networks:
+        - tg-network
+
+networks:
+    tg-network:
+        driver: bridge
