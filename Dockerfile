@@ -18,7 +18,7 @@ RUN mkdir -p /reviewsapp
 WORKDIR /reviewsapp
 
 #Copies app to container in /reviewsapp
-COPY reviewsapp/target/reviewsapp.jar /reviewsapp
+COPY musiq-backend-mongo/target/reviewsapp.jar /reviewsapp
 
 #Starts app from location when container is run
 ENTRYPOINT ["java","-jar","reviewsapp.jar"]
