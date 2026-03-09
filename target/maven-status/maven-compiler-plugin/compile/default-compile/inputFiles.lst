@@ -1,0 +1,10 @@
+/Users/tomgrant/Documents/MusiQ/reviewsapp/src/main/java/com/se/reviewsapp/config/Config.java
+/Users/tomgrant/Documents/MusiQ/reviewsapp/src/main/java/com/se/reviewsapp/dtos/ReviewDto.java
+/Users/tomgrant/Documents/MusiQ/reviewsapp/src/main/java/com/se/reviewsapp/controllers/ReviewController.java
+/Users/tomgrant/Documents/MusiQ/reviewsapp/src/main/java/com/se/reviewsapp/repositories/ReviewRepository.java
+/Users/tomgrant/Documents/MusiQ/reviewsapp/src/main/java/com/se/reviewsapp/entities/Review.java
+/Users/tomgrant/Documents/MusiQ/reviewsapp/src/main/java/com/se/reviewsapp/dtos/ReviewMapper.java
+/Users/tomgrant/Documents/MusiQ/reviewsapp/src/main/java/com/se/reviewsapp/ReviewsAppApplication.java
+/Users/tomgrant/Documents/MusiQ/reviewsapp/src/main/java/com/se/reviewsapp/dtos/PerformanceDTO.java
+/Users/tomgrant/Documents/MusiQ/reviewsapp/src/main/java/com/se/reviewsapp/services/ReviewService.java
+/Users/tomgrant/Documents/MusiQ/reviewsapp/src/main/java/com/se/reviewsapp/exceptions/ReviewServiceException.java

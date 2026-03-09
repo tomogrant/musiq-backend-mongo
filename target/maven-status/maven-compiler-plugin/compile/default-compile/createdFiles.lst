@@ -1,0 +1,10 @@
+com/se/reviewsapp/dtos/ReviewDto.class
+com/se/reviewsapp/config/Config.class
+com/se/reviewsapp/exceptions/ReviewServiceException.class
+com/se/reviewsapp/dtos/PerformanceDTO.class
+com/se/reviewsapp/services/ReviewService.class
+com/se/reviewsapp/repositories/ReviewRepository.class
+com/se/reviewsapp/entities/Review.class
+com/se/reviewsapp/dtos/ReviewMapper.class
+com/se/reviewsapp/controllers/ReviewController.class
+com/se/reviewsapp/ReviewsAppApplication.class
