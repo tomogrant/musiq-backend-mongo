@@ -1,2 +1,2 @@
 # musiq-backend-mongo
-Mongo-based backend for storing reviews of artists/gigs; different db used for learnin purposes
+One of two backends used for the MusiQ web application. This backend is for storing reviews of artists/performances. It uses the nosql MongoDB, while the backend for artists/performances uses Postgres. This was done for learning purposes. 
